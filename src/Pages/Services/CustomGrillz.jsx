@@ -8,6 +8,7 @@ import About from "../../Components/About/AboutA";
 import AboutD from "../../Components/About/AboutD";
 import Contact from "../../Components/Contact/Contact";
 import BookButton from "../../Components/BookButton/BookButton";
+import { Helmet } from "react-helmet-async";
 
 const heroData = {
   bgImg: "images/hero-bg.jpg",
