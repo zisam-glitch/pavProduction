@@ -192,11 +192,11 @@ const Shop = () => {
                       <div className="d-flex justify-content-between align-items-center mt-2">
                         <div className="price">
                           <span className="current-price">
-                            ${product.price}
+                            £{product.price}
                           </span>
                           {product.originalPrice > product.price && (
                             <span className="original-price">
-                              ${product.originalPrice}
+                              £{product.originalPrice}
                             </span>
                           )}
                         </div>
