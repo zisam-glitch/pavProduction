@@ -1,0 +1,144 @@
+/*--------------------------------------------------------------
+20. CTA
+----------------------------------------------------------------*/
+.st-cta.st-style1 {
+  .st-cta-title {
+    font-size: 36px;
+    margin-bottom: 16px;
+  }
+  .st-cta-subtitle {
+    font-size: 16px;
+    margin-bottom: 33px;
+    line-height: 1.6em;
+  }
+}
+@media screen and (max-width: 991px) {
+  .st-cta.st-style1 .st-cta-title {
+    font-size: 28px;
+  }
+  .st-cta.st-style1 .st-cta-subtitle {
+    font-size: 14px;
+    margin-bottom: 23px;
+  }
+}
+@media screen and (max-width: 575px) {
+  .st-cta.st-style1 .st-cta-subtitle br {
+    display: none;
+  }
+}
+
+.homeCta{
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 32px 0;
+  @media (max-width: 991px) {
+    padding: 32px 10.5px;
+  }
+  h2{
+    font-size: 24px;
+    color: #fff;
+    margin: 0;
+  }
+}
+
+.AestheticsCta{
+  color: #fff;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 20%;
+  padding: 32px 0;
+  @media (max-width: 991px) {
+    padding: 32px 10.5px;
+    align-items: start;
+    flex-direction: column;
+    gap: 20px;
+  }
+  h2{
+    font-size: 24px;
+    color: #fff;
+  }
+  p{
+    color: white;
+  }
+}
+
+
+.AboutCta{
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 62px 0;
+  gap: 0;
+  flex-direction: row;
+  @media (max-width: 991px) {
+    flex-direction: column;
+    padding: 40px 10.5px;
+    align-items: start;
+    gap: 20px;
+    }
+  h2{
+    font-size: 32px;
+    color: #fff;
+    margin: 0;
+  }
+}
+
+.bg-bule{
+  background: linear-gradient(90deg, rgb(146, 90, 39) 0%, rgb(207, 148, 72) 57%);}
+.bg-red{
+  background-color: #d32f2f !important;
+}
+
+.button-cta{
+  display: flex;
+  gap: 10px;
+  padding: 10px 45px;
+  border-radius: 5px;
+  align-items: center;
+  border: 1px solid white;
+}
+.button-cta:hover{
+  color: #d32f2f;
+  background-color: white;
+  border: 1px solid white;
+  transition: all ease 0.2s;
+}
+
+.Emergency-cta{
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 40px;
+  color: white;
+  padding: 60px 0;
+    @media (max-width: 991px) {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    padding: 40px 10.5px;
+  }
+  .pin{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    .pi{
+      background-color: rgba($color: #fff, $alpha: .2);
+      padding: 15px 17px;
+      border-radius: 50%;
+      svg{
+        width: 20px;
+        height: 20px;
+      }
+    }
+    .pe{
+      h6{
+        color: white;
+        font-size: 20px;
+      }
+      p{
+        margin-bottom: 0;
+      }
+    }
+  }
+}
